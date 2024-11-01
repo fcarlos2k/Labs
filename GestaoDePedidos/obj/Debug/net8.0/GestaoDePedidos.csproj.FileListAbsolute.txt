@@ -1,0 +1,14 @@
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\bin\Debug\net8.0\GestaoDePedidos.exe
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\bin\Debug\net8.0\GestaoDePedidos.deps.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\bin\Debug\net8.0\GestaoDePedidos.runtimeconfig.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\bin\Debug\net8.0\GestaoDePedidos.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\bin\Debug\net8.0\GestaoDePedidos.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.AssemblyInfoInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.AssemblyInfo.cs
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\refint\GestaoDePedidos.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.genruntimeconfig.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\ref\GestaoDePedidos.dll
