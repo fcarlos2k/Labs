@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\gestaodepedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|solutionrelative:gestaodepedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\gestaodepedidos\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|solutionrelative:gestaodepedidos\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\gestaodepedidos\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|solutionrelative:gestaodepedidos\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "GestaoDePedidos\\Entities\\Item.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Entities\\Item.cs",
+              "RelativeToolTip": "GestaoDePedidos\\Entities\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T16:47:37.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "GestaoDePedidos\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Entities\\Pedido.cs",
+              "RelativeToolTip": "GestaoDePedidos\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAArwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T15:05:56.984Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "GestaoDePedidos\\Program.cs",
               "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Program.cs",
               "RelativeToolTip": "GestaoDePedidos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T13:31:44.522Z",
               "EditorCaption": ""

@@ -12,3 +12,4 @@ C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\ob
 C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.pdb
 C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.genruntimeconfig.cache
 C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\ref\GestaoDePedidos.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\GestaoDePedidos\obj\Debug\net8.0\GestaoDePedidos.sourcelink.json
