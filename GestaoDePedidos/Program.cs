@@ -9,16 +9,20 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             int opcao = 0;
+            double ValorTotal = 0;
+            char op = 'x';
             List<Pedido> ListaDePedidos = new List<Pedido>();
-
+            
             while (opcao != 9)
             {
+                
                 Console.Clear();
                 Console.WriteLine("O que deseja fazer? ");
                 Console.WriteLine("");
                 Console.WriteLine("1) Incluir itens no pedido ");
                 Console.WriteLine("2) Remover itens do pedido");
                 Console.WriteLine("3) Listar itens do pedido ");
+                Console.WriteLine("4) Finalizar pedido ");
                 Console.WriteLine("");
                 Console.WriteLine("9) Sair da aplicação");
                 Console.WriteLine("");
@@ -32,20 +36,20 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
 
                         Console.WriteLine("Digite o nome do produto: ");
                         Pedido.Nome = Console.ReadLine();
-                        
+
                         Console.WriteLine("Digite a quantidade do produto: ");
                         Pedido.Quantidade = int.Parse(Console.ReadLine());
 
                         Console.WriteLine("Digite o preço unitario do produto: ");
                         Pedido.Preco = double.Parse(Console.ReadLine());
-                        
+
                         ListaDePedidos.Add(Pedido);
 
                         Console.WriteLine("Item adiciodo! ");
                         Console.WriteLine();
                         Console.ReadLine();
                         break;
-                    
+
                     case 2:
                         //remover item do pedido
                         Console.WriteLine();
@@ -54,28 +58,32 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                         {
                             Console.WriteLine(obj);
                         };
-
+                        string remover;
 
                         Console.WriteLine();
-                        //Console.WriteLine("Tem certeza? S/N");
+                        Console.WriteLine();
 
-                        if (Console.ReadLine() == "S" || Console.ReadLine() == "s")
+                        remover = Console.ReadLine();
+
+                        Console.WriteLine("Tem certeza? S/N");
+                        op = char.Parse(Console.ReadLine());
+                        if (op == 'S' || op == 's')
                         {
-                            //ListaDePedidos.Remove(Console.ReadLine());
+                            ListaDePedidos.Remove("Alex");
                         };
-                        Console.ReadLine();
+
                         break;
-                    
+
                     case 3:
                         // Listar itens do pedido
                         Console.WriteLine("");
                         Console.WriteLine("Listar itens do pedido ");
 
-                        double ValorTotal = 0;
+                        ValorTotal = 0;
                         foreach (Pedido obj in ListaDePedidos)
                         {
                             ValorTotal += obj.Preco * obj.Quantidade;
-                            Console.WriteLine(obj);                        
+                            Console.WriteLine(obj);
                         };
                         Console.WriteLine();
                         Console.WriteLine("Valor total do pedido: " + ValorTotal);
@@ -83,53 +91,67 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                         Console.ReadLine();
                         break;
 
+                    case 4:
+                        // finalizar pedido
+                        ValorTotal = 0;
+                        foreach (Pedido obj in ListaDePedidos)
+                        {
+
+                            ValorTotal += obj.Preco * obj.Quantidade;
+                            Console.WriteLine(obj);
+                        };
+
+                        Console.WriteLine();
+                        Console.WriteLine("Quantidade de itens: " + ListaDePedidos.Count);
+                        Console.WriteLine("");
+                        Console.WriteLine("Valor total do pedido: " + ValorTotal);
+                        Console.WriteLine();
+                        Console.WriteLine("Deseja finalizar o pedido: (S/N)");
+                        char op = char.Parse(Console.ReadLine());
+                        if (op == 'S' || op == 's')
+                        {
+                            if (ListaDePedidos.Count == 0)
+                            {
+                                Console.WriteLine();
+                                Console.WriteLine("Não é possivel finalizar o pedido sem itens");
+                                Console.WriteLine();
+                                Console.WriteLine();
+                            }
+
+                            if (ValorTotal >= 1000)
+                            {
+                                Console.WriteLine();
+                                Console.WriteLine($"O valor total do seu pedido foi de: " + ValorTotal);
+                                Console.WriteLine();
+                                Console.WriteLine("Voce obteve um desconto de 10%");
+                                Console.WriteLine();
+                                Console.WriteLine();
+                                Console.WriteLine();
+                                Console.WriteLine($"Valor final do pedido é: " + ValorTotal * 0.9);
+                                ListaDePedidos.Clear();
+                                ValorTotal = 0;
+                                Console.WriteLine("Pedido Finalizado!");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Cancelado");
+                        };
+
+                        Console.ReadLine();
+                        break;
+
                     case 9:
                         // Sair da aplicação
                         Console.WriteLine("Até mais!");
                         break;
+
                     default:
                         Console.WriteLine("Valor incorreto");
                         break;
                 }
 
             };
-
-
-
-
-
-            // Console.WriteLine(Pedido);
-
-            /*
-            if (n == 1) {
-
-                List<Pedido> Pedido = new List<Pedido>();
-                Pedido.Add(Item)
-
-
-            }
-            */
-
-
-
-            /* int n = int.Parse(Console.ReadLine());
-
-            List<Employee> list = new List<Employee>();
-
-            for (int i = 1; i <= n; i++)
-            {
-                Console.WriteLine("Employee #" + i + ":");
-                Console.Write("Id: ");
-                
-                Console.Write("Name: ");
-                string name = Console.ReadLine();
-                Console.Write("Salary: ");
-                double salary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                list.Add(new Employee(id, name, salary));
-                Console.WriteLine();
-            }
-            */
-
         }
     }
 }
