@@ -1,0 +1,15 @@
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\bin\Debug\net8.0\NotificacaoBanco.exe
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\bin\Debug\net8.0\NotificacaoBanco.deps.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\bin\Debug\net8.0\NotificacaoBanco.runtimeconfig.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\bin\Debug\net8.0\NotificacaoBanco.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\bin\Debug\net8.0\NotificacaoBanco.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.AssemblyInfoInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.AssemblyInfo.cs
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.sourcelink.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\refint\NotificacaoBanco.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\NotificacaoBanco.genruntimeconfig.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\NotificacaoBanco\obj\Debug\net8.0\ref\NotificacaoBanco.dll

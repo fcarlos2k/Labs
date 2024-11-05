@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\gestaodepedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|solutionrelative:gestaodepedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\gestaodepedidos\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D42C8F-438C-4559-88B9-C5C5B7FEBAC0}|GestaoDePedidos\\GestaoDePedidos.csproj|solutionrelative:gestaodepedidos\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845B9C2C-E67C-452F-B9AF-75B821DF3AAA}|NotificacaoBanco\\NotificacaoBanco.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\notificacaobanco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845B9C2C-E67C-452F-B9AF-75B821DF3AAA}|NotificacaoBanco\\NotificacaoBanco.csproj|solutionrelative:notificacaobanco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845B9C2C-E67C-452F-B9AF-75B821DF3AAA}|NotificacaoBanco\\NotificacaoBanco.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\notificacaobanco\\entities\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845B9C2C-E67C-452F-B9AF-75B821DF3AAA}|NotificacaoBanco\\NotificacaoBanco.csproj|solutionrelative:notificacaobanco\\entities\\notificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Program.cs",
+              "RelativeDocumentMoniker": "GestaoDePedidos\\Program.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Program.cs",
+              "RelativeToolTip": "GestaoDePedidos\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:16:34.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "GestaoDePedidos\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\GestaoDePedidos\\Entities\\Pedido.cs",
+              "RelativeToolTip": "GestaoDePedidos\\Entities\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:16:28.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notificacao.cs",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\NotificacaoBanco\\Entities\\Notificacao.cs",
+              "RelativeDocumentMoniker": "NotificacaoBanco\\Entities\\Notificacao.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\NotificacaoBanco\\Entities\\Notificacao.cs",
+              "RelativeToolTip": "NotificacaoBanco\\Entities\\Notificacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:06:00.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\NotificacaoBanco\\Program.cs",
+              "RelativeDocumentMoniker": "NotificacaoBanco\\Program.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\NotificacaoBanco\\Program.cs",
+              "RelativeToolTip": "NotificacaoBanco\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:03:45.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
