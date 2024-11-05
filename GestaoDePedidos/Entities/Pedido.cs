@@ -9,7 +9,7 @@ namespace GestaoDePedidos.Entities
 {
     internal class Pedido
     {
-
+        public int Codigo { get; set; }
         public string Nome { get; set; }
         public int Quantidade { get; set; }
         public double Preco { get; set; }
@@ -17,8 +17,9 @@ namespace GestaoDePedidos.Entities
         public Pedido()
         {
         }
-        public Pedido(string nome, int quantidade, double preco)
+        public Pedido(int codigo, string nome, int quantidade, double preco)
         {
+            Codigo = codigo;
             Nome = nome;
             Quantidade = quantidade;
             Preco = preco;
@@ -27,21 +28,13 @@ namespace GestaoDePedidos.Entities
         public override string ToString()
         {
             Console.WriteLine();
-            return "Item: " +Nome + " Quantidade: " + Quantidade + " Preço: " + Preco;
+            return "Codigo:" +Codigo + " Item: " +Nome + " Quantidade: " + Quantidade + " Preço: " + Preco;
         }
 
         public double ValorTotalPedido()
         { return Preco; 
 
         }
-
     }
-
-    /*
-     * a adicionar, remover e listar itens no pedido.
-     * Crie uma função para calcular o valor total do pedido, considerando os itens e suas quantidades.
-     * Implemente uma função de validação que verifique se um pedido contém pelo menos um item antes de poder ser concluído.
-     * Implemente um desconto percentual ou fixo, aplicável a pedidos que atingem um valor mínimo
-    */
 }
 

@@ -9,8 +9,10 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             int opcao = 0;
+            int contagem = 1;
             double ValorTotal = 0;
             char op = 'x';
+            int remover = 0;
             List<Pedido> ListaDePedidos = new List<Pedido>();
             
             while (opcao != 9)
@@ -43,9 +45,12 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                         Console.WriteLine("Digite o preço unitario do produto: ");
                         Pedido.Preco = double.Parse(Console.ReadLine());
 
-                        ListaDePedidos.Add(Pedido);
+                        
 
                         Console.WriteLine("Item adiciodo! ");
+                        Pedido.Codigo = contagem;
+                        ListaDePedidos.Add(Pedido);
+                        contagem = contagem +1 ;
                         Console.WriteLine();
                         Console.ReadLine();
                         break;
@@ -53,24 +58,27 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                     case 2:
                         //remover item do pedido
                         Console.WriteLine();
-                        Console.WriteLine("Qual o nome do item que deseja remover? ");
+                        Console.Write("Qual o nome do item que deseja remover? ");
                         foreach (Pedido obj in ListaDePedidos)
                         {
                             Console.WriteLine(obj);
                         };
-                        string remover;
+
+                        
+                        remover = int.Parse(Console.ReadLine());
 
                         Console.WriteLine();
                         Console.WriteLine();
-
-                        remover = Console.ReadLine();
 
                         Console.WriteLine("Tem certeza? S/N");
                         op = char.Parse(Console.ReadLine());
                         if (op == 'S' || op == 's')
                         {
-                            ListaDePedidos.Remove("Alex");
+                            ListaDePedidos.RemoveAt(remover -1);
                         };
+
+                        Console.WriteLine("Item Removido!");
+                        Console.ReadLine();
 
                         break;
 
@@ -106,8 +114,8 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                         Console.WriteLine("");
                         Console.WriteLine("Valor total do pedido: " + ValorTotal);
                         Console.WriteLine();
-                        Console.WriteLine("Deseja finalizar o pedido: (S/N)");
-                        char op = char.Parse(Console.ReadLine());
+                        Console.Write("Deseja finalizar o pedido: (S/N)");
+                        op = char.Parse(Console.ReadLine());
                         if (op == 'S' || op == 's')
                         {
                             if (ListaDePedidos.Count == 0)

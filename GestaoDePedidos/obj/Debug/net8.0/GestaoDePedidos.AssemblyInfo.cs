@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestaoDePedidos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4145bf31018da34d38470bd536355f9aae30e242")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+312c12fb8465039c92559788689d89f64940675b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestaoDePedidos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestaoDePedidos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
