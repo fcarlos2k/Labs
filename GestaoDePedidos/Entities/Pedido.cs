@@ -31,10 +31,12 @@ namespace GestaoDePedidos.Entities
             return "Codigo:" +Codigo + " Item: " +Nome + " Quantidade: " + Quantidade + " Preço: " + Preco;
         }
 
-        public double ValorTotalPedido()
+        /*
+         public double ValorTotalPedido()
         { return Preco; 
 
         }
+        */
     }
 }
 

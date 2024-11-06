@@ -8,18 +8,19 @@ namespace NotificacaoBanco.Entities
 {
     internal class Notificacao
     {
-
-        public string notificacao { get; set; }
-        public string tipo { get; set; }
+        public int Id { get; set; }
+        public string Tipo { get; set; }
+        //public string Descricao { get; set; }
 
         public Notificacao()
         {
         }
 
-        public Notificacao(string notificacao, string tipo)
+        public Notificacao(int id, string tipo)
         {
-            this.notificacao = notificacao;
-            this.tipo = tipo;
+            Id = id;
+            Tipo = tipo;
+        //    Descricao = descricao;
         }
     }
 }

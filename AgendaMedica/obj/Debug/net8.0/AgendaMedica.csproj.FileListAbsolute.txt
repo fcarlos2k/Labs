@@ -1,0 +1,15 @@
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\bin\Debug\net8.0\AgendaMedica.exe
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\bin\Debug\net8.0\AgendaMedica.deps.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\bin\Debug\net8.0\AgendaMedica.runtimeconfig.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\bin\Debug\net8.0\AgendaMedica.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\bin\Debug\net8.0\AgendaMedica.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.AssemblyInfoInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.AssemblyInfo.cs
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.sourcelink.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\refint\AgendaMedica.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\AgendaMedica.genruntimeconfig.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\AgendaMedica\obj\Debug\net8.0\ref\AgendaMedica.dll

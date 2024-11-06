@@ -45,8 +45,6 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                         Console.WriteLine("Digite o preço unitario do produto: ");
                         Pedido.Preco = double.Parse(Console.ReadLine());
 
-                        
-
                         Console.WriteLine("Item adiciodo! ");
                         Pedido.Codigo = contagem;
                         ListaDePedidos.Add(Pedido);
@@ -64,7 +62,6 @@ namespace GestaoDePedidos // Note: actual namespace depends on the project name.
                             Console.WriteLine(obj);
                         };
 
-                        
                         remover = int.Parse(Console.ReadLine());
 
                         Console.WriteLine();
