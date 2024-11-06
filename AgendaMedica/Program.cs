@@ -13,6 +13,40 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
             int contador = 0;
             List<Consulta> consultas = new List<Consulta>();
 
+            Consulta d = new Consulta();
+            d.Id = contador;
+            d.Nome = "Primeiro Paciente";
+            d.Hora = TimeOnly.Parse("15:00");
+            d.Prioridade = "Normal";
+            consultas.Add(d);
+            contador = contador + 1;
+
+            
+            d.Id = contador;
+            d.Nome = "Segundo Paciente";
+            d.Hora = TimeOnly.Parse("16:00");
+            d.Prioridade = "Normal";
+            consultas.Add(d);
+            contador = contador + 1;
+            
+            
+            d.Id = contador;
+            d.Nome = "Terceiro Paciente";
+            d.Hora = TimeOnly.Parse("16:00");
+            d.Prioridade = "Alta";
+            consultas.Add(d);
+            contador = contador + 1;
+
+            d.Id = contador;
+            d.Nome = "Quato Paciente";
+            d.Hora = TimeOnly.Parse("15:00");
+            d.Prioridade = "Normal";
+            consultas.Add(d);
+            contador = contador + 1;
+
+
+
+
             //Dictionary<int, string, string> consulta = new Dictionary<int, string, string>();
 
             while (opcao != 9)
@@ -24,7 +58,8 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
                 Console.WriteLine("");
                 Console.WriteLine("1) Agendar uma consulta");
                 Console.WriteLine("2) Reprogramar uma consulta");
-                Console.WriteLine("3) Listar a agenda do dia");
+                Console.WriteLine("3) Listar a agenda NORMAL do dia");
+                Console.WriteLine("4) Listar a agenda COM PRIORIDADES do dia");
                 Console.WriteLine("9) Sair da aplicação");
                 Console.WriteLine("");
                 opcao = int.Parse(Console.ReadLine());
@@ -81,27 +116,42 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
                         break;
 
                     case 3:
-                        // Listar agenda do dia
+                        // Listar agenda do NORMAL dia
                         Console.WriteLine("");
                         Console.WriteLine("Listar Consultas");
 
-                        //Consulta c = new Consulta();
-                        Consulta ConsultaOrdenada = new Consulta();
+                        var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).OrderBy(x => x.Prioridade).ToList();
+                        //var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).ToList();
 
-
-                        ConsultaOrdenada = consultas.OrderBy(o => o.Desc).ToList() ;
-
-
-                        foreach (Consulta obj in consultas)
+                        foreach (Consulta obj in ConsultaOrdenadaHora)
                         {
-                            
-                            Console.WriteLine();
+                            Console.WriteLine(obj);
                         };
+
                         Console.WriteLine();
                         Console.WriteLine();
                         Console.ReadLine();
                         break;
-                        
+
+                    /*
+                     case 4:
+                        // Listar agenda do dia
+                        Console.WriteLine("");
+                        Console.WriteLine("Listar Consultas");
+
+                        var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).OrderBy(x => x.Prioridade).ToList();
+
+
+                        foreach (Consulta obj in ConsultaOrdenadaHora)
+                        {
+                            Console.WriteLine(obj);
+                        };
+
+                        Console.WriteLine();
+                        Console.WriteLine();
+                        Console.ReadLine();
+                        break;
+                    */
 
 
                     case 9:
