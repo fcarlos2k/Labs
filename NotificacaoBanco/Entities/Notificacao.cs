@@ -9,18 +9,22 @@ namespace NotificacaoBanco.Entities
     internal class Notificacao
     {
         public int Id { get; set; }
-        public string Tipo { get; set; }
-        //public string Descricao { get; set; }
+        public string Descricao { get; set; }
 
         public Notificacao()
         {
         }
 
-        public Notificacao(int id, string tipo)
+        public Notificacao(int id, string descricao)
         {
             Id = id;
-            Tipo = tipo;
-        //    Descricao = descricao;
+            Descricao = descricao;
+        }
+
+        public override string ToString()
+        {
+            Console.WriteLine();
+            return "Id:" + Id + " Descricao: " + Descricao;
         }
     }
 }

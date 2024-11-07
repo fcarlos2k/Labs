@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4188168A-4D15-4249-BAC8-07444D54DCE1}|AgendaMedica\\AgendaMedica.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\agendamedica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4188168A-4D15-4249-BAC8-07444D54DCE1}|AgendaMedica\\AgendaMedica.csproj|solutionrelative:agendamedica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4188168A-4D15-4249-BAC8-07444D54DCE1}|AgendaMedica\\AgendaMedica.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\agendamedica\\entities\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4188168A-4D15-4249-BAC8-07444D54DCE1}|AgendaMedica\\AgendaMedica.csproj|solutionrelative:agendamedica\\entities\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8B66BBE-AFB9-4887-8796-1FB970C4F060}|SuporteTecnico\\SuporteTecnico.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\projeto\\labs\\labs\\suportetecnico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B66BBE-AFB9-4887-8796-1FB970C4F060}|SuporteTecnico\\SuporteTecnico.csproj|solutionrelative:suportetecnico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Consulta.cs",
-              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\AgendaMedica\\Entities\\Consulta.cs",
-              "RelativeDocumentMoniker": "AgendaMedica\\Entities\\Consulta.cs",
-              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\AgendaMedica\\Entities\\Consulta.cs",
-              "RelativeToolTip": "AgendaMedica\\Entities\\Consulta.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wDAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:34:56.458Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\AgendaMedica\\Program.cs",
-              "RelativeDocumentMoniker": "AgendaMedica\\Program.cs",
-              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\AgendaMedica\\Program.cs",
-              "RelativeToolTip": "AgendaMedica\\Program.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAI4AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\SuporteTecnico\\Program.cs",
+              "RelativeDocumentMoniker": "SuporteTecnico\\Program.cs",
+              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\Projeto\\Labs\\Labs\\SuporteTecnico\\Program.cs",
+              "RelativeToolTip": "SuporteTecnico\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:34:55.556Z",
+              "WhenOpened": "2024-11-07T18:23:44.922Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,15 @@
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\bin\Debug\net8.0\SuporteTecnico.exe
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\bin\Debug\net8.0\SuporteTecnico.deps.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\bin\Debug\net8.0\SuporteTecnico.runtimeconfig.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\bin\Debug\net8.0\SuporteTecnico.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\bin\Debug\net8.0\SuporteTecnico.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.AssemblyInfoInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.AssemblyInfo.cs
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.sourcelink.json
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\refint\SuporteTecnico.dll
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.pdb
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\SuporteTecnico.genruntimeconfig.cache
+C:\Users\fabricio.araujo\Documents\Projetos\Projeto\Labs\Labs\SuporteTecnico\obj\Debug\net8.0\ref\SuporteTecnico.dll

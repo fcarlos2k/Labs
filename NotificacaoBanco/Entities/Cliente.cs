@@ -6,19 +6,25 @@ using System.Threading.Tasks;
 
 namespace NotificacaoBanco.Entities
 {
-    internal class Eventos
+    internal class Cliente
     {
+
         public int Id { get; set; }
         public string Nome { get; set; }
+        public int Notificacao { get; set; }
 
-        public Eventos() 
-        { 
-        }
+        public Cliente() { }
 
-        public Eventos(int id, string nome)
+        public Cliente(int id, string nome)
         {
             Id = id;
             Nome = nome;
+        }
+
+        public override string ToString()
+        {
+            Console.WriteLine();
+            return "Id:" + Id + " Nome : " + Nome;
         }
     }
 }

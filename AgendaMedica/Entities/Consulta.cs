@@ -32,18 +32,5 @@ namespace AgendaMedica.Entities
             Console.WriteLine();
             return "Id:" + Id + " Paciente: " + Nome + " Hora: " + Hora + " Prioridade: " + Prioridade;
         }
-
-
-        /*public static void ListarConsultas(Consulta)
-        {
-            Console.WriteLine();
-            Console.WriteLine("");
-            Console.WriteLine("Listar Consultas");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.ReadLine();
-        }
-        */
     }
-
 }
