@@ -13,42 +13,17 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
             int contador = 0;
             List<Consulta> consultas = new List<Consulta>();
 
-            Consulta d = new Consulta();
-            d.Id = contador;
-            d.Nome = "Primeiro Paciente";
-            d.Hora = TimeOnly.Parse("15:00");
-            d.Prioridade = "Normal";
-            consultas.Add(d);
-            contador = contador + 1;
-
+            for (int i = 0; i < 5; i++)
+            {
+                Consulta d = new Consulta();
+                d.Id = i;
+                d.Nome = "Paciente" + i;
+                d.Hora = TimeOnly.Parse("15:" + i + "0");
+                d.Prioridade = "Normal";
+                consultas.Add(d);
+                contador ++;
+            }
             
-            d.Id = contador;
-            d.Nome = "Segundo Paciente";
-            d.Hora = TimeOnly.Parse("16:00");
-            d.Prioridade = "Normal";
-            consultas.Add(d);
-            contador = contador + 1;
-            
-            
-            d.Id = contador;
-            d.Nome = "Terceiro Paciente";
-            d.Hora = TimeOnly.Parse("16:00");
-            d.Prioridade = "Alta";
-            consultas.Add(d);
-            contador = contador + 1;
-
-            d.Id = contador;
-            d.Nome = "Quato Paciente";
-            d.Hora = TimeOnly.Parse("15:00");
-            d.Prioridade = "Normal";
-            consultas.Add(d);
-            contador = contador + 1;
-
-
-
-
-            //Dictionary<int, string, string> consulta = new Dictionary<int, string, string>();
-
             while (opcao != 9)
             {
                 Console.Clear();
@@ -82,7 +57,7 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
                         Console.WriteLine("Item adiciodo! ");
                         c.Id = contador;
                         consultas.Add(c);
-                        contador = contador + 1;
+                        contador ++;
                         Console.WriteLine();
                         Console.ReadLine();
                         break;
@@ -120,8 +95,7 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
                         Console.WriteLine("");
                         Console.WriteLine("Listar Consultas");
 
-                        var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).OrderBy(x => x.Prioridade).ToList();
-                        //var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).ToList();
+                        var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).ToList();
 
                         foreach (Consulta obj in ConsultaOrdenadaHora)
                         {
@@ -133,16 +107,15 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
                         Console.ReadLine();
                         break;
 
-                    /*
-                     case 4:
-                        // Listar agenda do dia
+                    case 4:
+                        // Listar agenda com PRIORIDADES do dia
                         Console.WriteLine("");
                         Console.WriteLine("Listar Consultas");
 
-                        var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).OrderBy(x => x.Prioridade).ToList();
+                        //var ConsultaOrdenadaHora = consultas.OrderBy(x => x.Hora).OrderBy(x => x.Prioridade).ToList();
+                        var ConsultaOrdenadaPrioridadeHora = consultas.OrderBy(x => x.Prioridade).OrderBy(x => x.Hora).ToList();
 
-
-                        foreach (Consulta obj in ConsultaOrdenadaHora)
+                        foreach (Consulta obj in ConsultaOrdenadaPrioridadeHora)
                         {
                             Console.WriteLine(obj);
                         };
@@ -151,7 +124,7 @@ namespace AgendaMedica // Note: actual namespace depends on the project name.
                         Console.WriteLine();
                         Console.ReadLine();
                         break;
-                    */
+
 
 
                     case 9:
