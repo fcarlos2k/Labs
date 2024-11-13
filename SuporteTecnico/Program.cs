@@ -7,6 +7,7 @@ namespace SuporteTenico // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Teste de alteração pra novo commit");
+            Console.WriteLine("Teste de alteração pra nova branch");
         }
     }
 }
