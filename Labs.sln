@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaMedica", "AgendaMedic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuporteTecnico", "SuporteTecnico\SuporteTecnico.csproj", "{E8B66BBE-AFB9-4887-8796-1FB970C4F060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogoFilmes", "CatalogoFilmes\CatalogoFilmes.csproj", "{7955F2A3-0AEA-403B-93AD-455A80D0C3DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E8B66BBE-AFB9-4887-8796-1FB970C4F060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B66BBE-AFB9-4887-8796-1FB970C4F060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B66BBE-AFB9-4887-8796-1FB970C4F060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7955F2A3-0AEA-403B-93AD-455A80D0C3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7955F2A3-0AEA-403B-93AD-455A80D0C3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7955F2A3-0AEA-403B-93AD-455A80D0C3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7955F2A3-0AEA-403B-93AD-455A80D0C3DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
