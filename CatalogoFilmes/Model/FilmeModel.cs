@@ -1,8 +1,8 @@
 ﻿namespace CatalogoFilmes.Model
 {
-    public class FilmesModel
+    public class Filme
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
         public string? Nome { get; set; }
     }
 }
