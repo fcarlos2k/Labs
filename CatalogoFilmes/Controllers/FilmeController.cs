@@ -30,7 +30,6 @@ namespace CatalogoFilmes.Controllers
         public ActionResult<Filme> Get(int id)
         {
             var filme = _repository.ObterPorId(id);
-            //GetFilmesId (x => x.Id == id);
             if (filme is null)
             {
                 return NotFound("Filme nao encontrado");
@@ -40,16 +39,28 @@ namespace CatalogoFilmes.Controllers
 
 
         [HttpPost]
-
-        public ActionResult<Filme> Post(Filme filme)
+        public ActionResult Post([FromBody] Filme filme)
         {
-            _repository.ad filmes.Add(new Filme() { Id = 1, Nome = "Batman" });
+            _repository.Adicionar(filme);
             return Ok();
         }
 
-        //[HttpPut]
 
-        //[HttpDelete]
+        [HttpPut("{id:int}")]
+        public ActionResult Put(int id, [FromBody] Filme filme)
+        {
+            _repository.Atualizar(filme);
+            return NoContent();
+        }
+
+
+
+        [HttpDelete("{id:int}")]
+        public ActionResult Delete(int id)
+        {
+            if 
+            _repository.Remover(id);
+            return NoContent();
+        }
     }
-
 }
