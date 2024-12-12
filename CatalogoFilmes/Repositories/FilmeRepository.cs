@@ -31,7 +31,10 @@ namespace CatalogoFilmes.Repositories
             return _filmes.FirstOrDefault(x => x.Id == id);
         }
 
-
+        Filme IFilmeRepository.ObterPorNome(string nome)
+        {
+            return _filmes.FirstOrDefault(x => x.Nome.Contains(nome, StringComparison.OrdinalIgnoreCase));
+        }
         void IFilmeRepository.Adicionar(Filme filme)
         {
             _filmes.Add(filme);
@@ -55,5 +58,7 @@ namespace CatalogoFilmes.Repositories
                 _filmes.Remove(filmeParaRemover);
             }
         }
+
+
     }
 }
