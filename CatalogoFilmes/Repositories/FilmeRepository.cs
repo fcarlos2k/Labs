@@ -12,12 +12,12 @@ namespace CatalogoFilmes.Repositories
         public FilmeRepository()
         {
             _filmes = new List<Filme>
-        {
-            new Filme { Id = 1, Nome = "Batman"},
-            new Filme { Id = 2, Nome = "Predador"},
-            new Filme { Id = 3, Nome = "A volta dos que nao foram"},
-            new Filme { Id = 4, Nome = "Resident Evil"}
-        };
+            {
+                new Filme { Id = 1, Nome = "Batman"},
+                new Filme { Id = 2, Nome = "Predador"},
+                new Filme { Id = 3, Nome = "A volta dos que nao foram"},
+                new Filme { Id = 4, Nome = "Resident Evil"}
+            };
         }
 
         public IEnumerable<Filme> ObterTodos()
@@ -26,39 +26,31 @@ namespace CatalogoFilmes.Repositories
         }
 
 
-        public Filme ObterPorId(int id)
+        public Filme? ObterPorId(int id)
         {
             return _filmes.FirstOrDefault(x => x.Id == id);
         }
 
-        Filme IFilmeRepository.ObterPorNome(string nome)
+        public IEnumerable<Filme> ObterPorNome(string nome)
         {
-            return _filmes.FirstOrDefault(x => x.Nome.Contains(nome, StringComparison.OrdinalIgnoreCase));
+            return _filmes.Where(x => x.Nome.Contains(nome, StringComparison.OrdinalIgnoreCase));
         }
-        void IFilmeRepository.Adicionar(Filme filme)
+        public void Adicionar(Filme filme)
         {
             _filmes.Add(filme);
         }
 
-        void IFilmeRepository.Atualizar(Filme filme)
+        public void Atualizar(Filme filme)
         {
-            var filmeParaAtualizar = _filmes.FirstOrDefault(x => x.Id == filme.Id);
-            if (filmeParaAtualizar != null)
-            {
-                filmeParaAtualizar.Id = filme.Id;
-                filmeParaAtualizar.Nome = filme.Nome;
-            }
+            var filmeParaAtualizar = _filmes.First(x => x.Id == filme.Id);
+            filmeParaAtualizar.Id = filme.Id;
+            filmeParaAtualizar.Nome = filme.Nome;
         }
 
         void IFilmeRepository.Remover(int Id)
         {
-            var filmeParaRemover = _filmes.FirstOrDefault(x => x.Id == Id);
-            if (filmeParaRemover != null)
-            {
+            var filmeParaRemover = _filmes.First(x => x.Id == Id);
                 _filmes.Remove(filmeParaRemover);
-            }
         }
-
-
     }
 }

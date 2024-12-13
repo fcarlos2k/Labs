@@ -1,4 +1,5 @@
 ﻿using CatalogoFilmes.Model;
+using CatalogoFilmes.Policy;
 using CatalogoFilmes.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -30,7 +31,7 @@ namespace CatalogoFilmes.Controllers
         public ActionResult<Filme> Get(int id)
         {
             var filme = _repository.ObterPorId(id);
-            if (filme is null)
+            if (!FilmeVazio.ValidarFilme(filme))
             {
                 return NotFound("Filme nao encontrado");
             }
@@ -42,7 +43,7 @@ namespace CatalogoFilmes.Controllers
         public ActionResult<Filme> ObterPorNome([FromQuery] string nome)
         {
             var filme = _repository.ObterPorNome(nome);
-            if (filme is null)
+            if (filme == null)
             {
                 return NotFound("Filme nao encontrado");
             }
@@ -64,7 +65,7 @@ namespace CatalogoFilmes.Controllers
         public ActionResult Put(int id, [FromBody] Filme filme)
         {
             var filmeAtualizar = _repository.ObterPorId(id);
-            if (filmeAtualizar is null)
+            if (!FilmeVazio.ValidarFilme(filmeAtualizar))
             {
                 return BadRequest("Filme nao encontrado");
             }

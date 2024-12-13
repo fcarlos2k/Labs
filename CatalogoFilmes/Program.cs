@@ -12,8 +12,6 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IFilmeRepository,FilmeRepository>();
 
-//builder.Services.AddScoped<>;
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
